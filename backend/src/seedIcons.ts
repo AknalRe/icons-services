@@ -428,6 +428,414 @@ export const BUILTIN_ICONS: SeedIconEntry[] = [
     "isOfficial": 0
   },
   {
+    "slug": "reneo-panel-app-catalog",
+    "name": "Panel Katalog Aplikasi",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Katalog Aplikasi.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "app-catalog"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Katalog Aplikasi\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0B2A57\" />\n  <rect x=\"15\" y=\"15\" width=\"15\" height=\"15\" rx=\"4\" fill=\"#FFFFFF\" />\n  <rect x=\"34\" y=\"15\" width=\"15\" height=\"15\" rx=\"4\" fill=\"#3B82F6\" />\n  <rect x=\"15\" y=\"34\" width=\"15\" height=\"15\" rx=\"4\" fill=\"#38BDF8\" />\n  <rect x=\"34\" y=\"34\" width=\"15\" height=\"15\" rx=\"4\" fill=\"#FFFFFF\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-app-licenses",
+    "name": "Panel Lisensi Aplikasi",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Lisensi Aplikasi.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "app-licenses"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Lisensi Aplikasi\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0B2A57\" />\n  <circle cx=\"24\" cy=\"32\" r=\"9\" fill=\"none\" stroke=\"#FBBF24\" stroke-width=\"4.2\" />\n  <line x1=\"33\" y1=\"32\" x2=\"49\" y2=\"32\" stroke=\"#FFFFFF\" stroke-width=\"4.2\" stroke-linecap=\"round\" />\n  <line x1=\"42\" y1=\"32\" x2=\"42\" y2=\"39\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linecap=\"round\" />\n  <line x1=\"48\" y1=\"32\" x2=\"48\" y2=\"37.5\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linecap=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-apps",
+    "name": "Panel Docker & Container",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Docker & Container.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "apps"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Docker & Container\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0284C7\" />\n  <rect x=\"15\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"27\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"39\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#BAE6FD\" />\n  <rect x=\"21\" y=\"22\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"33\" y=\"22\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#BAE6FD\" />\n  <path d=\"M13 43h38c0 4.5-3.8 7-9 7H22c-5.2 0-9-2.5-9-7Z\" fill=\"#E0F2FE\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-changelog",
+    "name": "Panel Catatan Rilis",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Catatan Rilis.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "changelog"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Catatan Rilis\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#7C3AED\" />\n  <path d=\"M16 28v8a3 3 0 0 0 3 3h5l14 8V17l-14 8h-5a3 3 0 0 0-3 3Z\" fill=\"#FFFFFF\" />\n  <path d=\"M44 25a8 8 0 0 1 0 14\" fill=\"none\" stroke=\"#DDD6FE\" stroke-width=\"3.2\" stroke-linecap=\"round\" />\n  <rect x=\"21\" y=\"39\" width=\"4.5\" height=\"9\" rx=\"2.2\" fill=\"#DDD6FE\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-database",
+    "name": "Panel Database",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Database.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "database"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Database\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#D97706\" />\n  <ellipse cx=\"32\" cy=\"19\" rx=\"16\" ry=\"5.5\" fill=\"#FEF3C7\" />\n  <path d=\"M16 19v10c0 3 7.2 5.5 16 5.5s16-2.5 16-5.5V19\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3.2\" />\n  <path d=\"M16 29v10c0 3 7.2 5.5 16 5.5s16-2.5 16-5.5V29\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3.2\" />\n  <path d=\"M16 39v6c0 3 7.2 5.5 16 5.5s16-2.5 16-5.5v-6\" fill=\"none\" stroke=\"#FDE68A\" stroke-width=\"3.2\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-docs",
+    "name": "Panel Dokumentasi",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Dokumentasi.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "docs"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Dokumentasi\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#059669\" />\n  <rect x=\"16\" y=\"13\" width=\"32\" height=\"38\" rx=\"6\" fill=\"#FFFFFF\" />\n  <path d=\"M36 13v11l4-2.5L44 24V13h-8Z\" fill=\"#10B981\" />\n  <rect x=\"22\" y=\"29\" width=\"20\" height=\"3\" rx=\"1.5\" fill=\"#059669\" />\n  <rect x=\"22\" y=\"36\" width=\"15\" height=\"3\" rx=\"1.5\" fill=\"#6EE7B7\" />\n  <rect x=\"22\" y=\"42\" width=\"18\" height=\"3\" rx=\"1.5\" fill=\"#6EE7B7\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-email",
+    "name": "Panel Email",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Email.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "email"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Email\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0284C7\" />\n  <rect x=\"13\" y=\"18\" width=\"38\" height=\"28\" rx=\"5\" fill=\"#FFFFFF\" />\n  <path d=\"M15 21l17 13 17-13\" fill=\"none\" stroke=\"#0284C7\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-file-editor",
+    "name": "Panel Editor Kode",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Editor Kode.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "file-editor"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Editor Kode\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#2563EB\" />\n  <rect x=\"14\" y=\"13\" width=\"36\" height=\"38\" rx=\"7\" fill=\"#FFFFFF\" />\n  <path d=\"M26 27l-5 5 5 5\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n  <path d=\"M38 27l5 5-5 5\" fill=\"none\" stroke=\"#2563EB\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n  <line x1=\"34\" y1=\"25\" x2=\"30\" y2=\"39\" stroke=\"#60A5FA\" stroke-width=\"3\" stroke-linecap=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-file-manager",
+    "name": "Panel Berkas",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Berkas.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "file-manager"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Berkas\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#CA8A04\" />\n  <path d=\"M13 21a4 4 0 0 1 4-4h10l4 4h16a4 4 0 0 1 4 4v21a4 4 0 0 1-4 4H17a4 4 0 0 1-4-4V21Z\" fill=\"#FEF08A\" />\n  <rect x=\"13\" y=\"26\" width=\"38\" height=\"24\" rx=\"4\" fill=\"#FFFFFF\" />\n  <rect x=\"20\" y=\"34\" width=\"16\" height=\"3\" rx=\"1.5\" fill=\"#CA8A04\" />\n  <rect x=\"20\" y=\"40\" width=\"24\" height=\"3\" rx=\"1.5\" fill=\"#EAB308\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-firewall",
+    "name": "Panel Firewall",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Firewall.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "firewall"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Firewall\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#DC2626\" />\n  <path d=\"M32 13l16 6v12c0 10.5-6.8 18-16 21-9.2-3-16-10.5-16-21V19l16-6Z\" fill=\"#FFFFFF\" />\n  <path d=\"M25.5 32.5l4.5 4.5 9-9.5\" fill=\"none\" stroke=\"#DC2626\" stroke-width=\"3.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-host-terminal",
+    "name": "Panel Terminal Host",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Terminal Host.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "host-terminal"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Terminal Host\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0F172A\" />\n  <rect x=\"11\" y=\"13\" width=\"42\" height=\"38\" rx=\"8\" fill=\"#1E293B\" stroke=\"#334155\" stroke-width=\"2\" />\n  <path d=\"M19 25l8 7-8 7\" fill=\"none\" stroke=\"#34D399\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n  <line x1=\"31\" y1=\"39\" x2=\"45\" y2=\"39\" stroke=\"#F8FAFC\" stroke-width=\"3.6\" stroke-linecap=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-hosting",
+    "name": "Panel Hosting",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Hosting.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "hosting"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Hosting\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#E11D48\" />\n  <circle cx=\"32\" cy=\"32\" r=\"16\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3.2\" />\n  <ellipse cx=\"32\" cy=\"32\" rx=\"7.5\" ry=\"16\" fill=\"none\" stroke=\"#FECDD3\" stroke-width=\"2.8\" />\n  <line x1=\"16\" y1=\"32\" x2=\"48\" y2=\"32\" stroke=\"#FFFFFF\" stroke-width=\"2.8\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-installed-app",
+    "name": "Panel Aplikasi Terpasang",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Aplikasi Terpasang.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "installed-app"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Aplikasi Terpasang\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0B2A57\" />\n  <rect x=\"13\" y=\"15\" width=\"38\" height=\"34\" rx=\"6\" fill=\"#FFFFFF\" />\n  <rect x=\"13\" y=\"15\" width=\"38\" height=\"10\" rx=\"5\" fill=\"#2563EB\" />\n  <rect x=\"19\" y=\"31\" width=\"12\" height=\"12\" rx=\"3\" fill=\"#0B2A57\" />\n  <rect x=\"35\" y=\"31\" width=\"10\" height=\"4.5\" rx=\"2\" fill=\"#94A3B8\" />\n  <rect x=\"35\" y=\"38.5\" width=\"10\" height=\"4.5\" rx=\"2\" fill=\"#CBD5E1\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-kvm",
+    "name": "Panel Layar KVM",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Layar KVM.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "kvm"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Layar KVM\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0E7490\" />\n  <rect x=\"13\" y=\"15\" width=\"38\" height=\"25\" rx=\"5\" fill=\"#FFFFFF\" />\n  <rect x=\"18\" y=\"20\" width=\"28\" height=\"15\" rx=\"2.5\" fill=\"#155E75\" />\n  <rect x=\"26\" y=\"42\" width=\"12\" height=\"3.5\" rx=\"1.7\" fill=\"#A5F3FC\" />\n  <rect x=\"20\" y=\"46.5\" width=\"24\" height=\"3.5\" rx=\"1.7\" fill=\"#FFFFFF\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-profile",
+    "name": "Panel Profil",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Profil.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "profile"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Profil\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#4338CA\" />\n  <circle cx=\"32\" cy=\"25\" r=\"8.5\" fill=\"#FFFFFF\" />\n  <path d=\"M17 48c0-7.8 6.7-13 15-13s15 5.2 15 13\" fill=\"#E0E7FF\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-projects",
+    "name": "Panel Proyek",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Proyek.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "projects"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Proyek\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#4F46E5\" />\n  <circle cx=\"22\" cy=\"20\" r=\"4.5\" fill=\"#FFFFFF\" />\n  <circle cx=\"22\" cy=\"44\" r=\"4.5\" fill=\"#FFFFFF\" />\n  <circle cx=\"42\" cy=\"28\" r=\"4.5\" fill=\"#C7D2FE\" />\n  <line x1=\"22\" y1=\"24.5\" x2=\"22\" y2=\"39.5\" stroke=\"#FFFFFF\" stroke-width=\"3.4\" stroke-linecap=\"round\" />\n  <path d=\"M22 36c0-5 5-8 15.5-8\" fill=\"none\" stroke=\"#C7D2FE\" stroke-width=\"3.4\" stroke-linecap=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-settings",
+    "name": "Panel Pengaturan",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Pengaturan.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "settings"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Pengaturan\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#475569\" />\n  <line x1=\"16\" y1=\"22\" x2=\"48\" y2=\"22\" stroke=\"#CBD5E1\" stroke-width=\"3.2\" stroke-linecap=\"round\" />\n  <circle cx=\"26\" cy=\"22\" r=\"5\" fill=\"#FFFFFF\" />\n  <line x1=\"16\" y1=\"34\" x2=\"48\" y2=\"34\" stroke=\"#CBD5E1\" stroke-width=\"3.2\" stroke-linecap=\"round\" />\n  <circle cx=\"39\" cy=\"34\" r=\"5\" fill=\"#38BDF8\" />\n  <line x1=\"16\" y1=\"46\" x2=\"48\" y2=\"46\" stroke=\"#CBD5E1\" stroke-width=\"3.2\" stroke-linecap=\"round\" />\n  <circle cx=\"24\" cy=\"46\" r=\"5\" fill=\"#FFFFFF\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-speedtest",
+    "name": "Panel Tes Kecepatan",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Tes Kecepatan.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "speedtest"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Tes Kecepatan\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0D9488\" />\n  <path d=\"M16 42a18 18 0 1 1 32 0\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"4.2\" stroke-linecap=\"round\" />\n  <line x1=\"32\" y1=\"38\" x2=\"43\" y2=\"26\" stroke=\"#99F6E4\" stroke-width=\"3.8\" stroke-linecap=\"round\" />\n  <circle cx=\"32\" cy=\"38\" r=\"4\" fill=\"#FFFFFF\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-system-logs",
+    "name": "Panel Log Sistem",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Log Sistem.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "system-logs"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Log Sistem\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#334155\" />\n  <rect x=\"13\" y=\"14\" width=\"38\" height=\"36\" rx=\"6\" fill=\"#1E293B\" />\n  <circle cx=\"20\" cy=\"23\" r=\"2.2\" fill=\"#34D399\" />\n  <rect x=\"26\" y=\"21.5\" width=\"19\" height=\"3\" rx=\"1.5\" fill=\"#F8FAFC\" />\n  <circle cx=\"20\" cy=\"32\" r=\"2.2\" fill=\"#38BDF8\" />\n  <rect x=\"26\" y=\"30.5\" width=\"14\" height=\"3\" rx=\"1.5\" fill=\"#CBD5E1\" />\n  <circle cx=\"20\" cy=\"41\" r=\"2.2\" fill=\"#FBBF24\" />\n  <rect x=\"26\" y=\"39.5\" width=\"17\" height=\"3\" rx=\"1.5\" fill=\"#94A3B8\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-system",
+    "name": "Panel Sistem",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Sistem.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "system"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Sistem\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0891B2\" />\n  <rect x=\"14\" y=\"15\" width=\"36\" height=\"14\" rx=\"4\" fill=\"#FFFFFF\" />\n  <rect x=\"14\" y=\"35\" width=\"36\" height=\"14\" rx=\"4\" fill=\"#CFFAFE\" />\n  <circle cx=\"21\" cy=\"22\" r=\"2.5\" fill=\"#0891B2\" />\n  <rect x=\"27\" y=\"20.5\" width=\"16\" height=\"3\" rx=\"1.5\" fill=\"#0891B2\" />\n  <circle cx=\"21\" cy=\"42\" r=\"2.5\" fill=\"#0E7490\" />\n  <rect x=\"27\" y=\"40.5\" width=\"16\" height=\"3\" rx=\"1.5\" fill=\"#0E7490\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-trash",
+    "name": "Panel Sampah",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Sampah.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "trash"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Sampah\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#B91C1C\" />\n  <line x1=\"17\" y1=\"21\" x2=\"47\" y2=\"21\" stroke=\"#FFFFFF\" stroke-width=\"3.6\" stroke-linecap=\"round\" />\n  <path d=\"M26 21v-3a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3\" fill=\"none\" stroke=\"#FECACA\" stroke-width=\"3.2\" />\n  <path d=\"M20 21l2.2 26a3 3 0 0 0 3 2.8h13.6a3 3 0 0 0 3-2.8L44 21H20Z\" fill=\"#FFFFFF\" />\n  <line x1=\"28\" y1=\"28\" x2=\"28\" y2=\"43\" stroke=\"#B91C1C\" stroke-width=\"2.8\" stroke-linecap=\"round\" />\n  <line x1=\"36\" y1=\"28\" x2=\"36\" y2=\"43\" stroke=\"#B91C1C\" stroke-width=\"2.8\" stroke-linecap=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-tunnels",
+    "name": "Panel Cloudflare Tunnel",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Cloudflare Tunnel.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "tunnels"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Cloudflare Tunnel\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#EA580C\" />\n  <path d=\"M44 39H22a8 8 0 0 1-1.2-15.9A11 11 0 0 1 42 25.5a7 7 0 0 1 2 13.5Z\" fill=\"#FFFFFF\" />\n  <path d=\"M24 46h16\" stroke=\"#FED7AA\" stroke-width=\"3.2\" stroke-linecap=\"round\" />\n  <path d=\"M36 42l4 4-4 4\" fill=\"none\" stroke=\"#FED7AA\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-users",
+    "name": "Panel Pengguna",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Pengguna.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "users"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Pengguna\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#DB2777\" />\n  <circle cx=\"26\" cy=\"24\" r=\"7\" fill=\"#FFFFFF\" />\n  <path d=\"M14 46c0-6.5 5.4-11 12-11s12 4.5 12 11\" fill=\"#FFFFFF\" />\n  <circle cx=\"42\" cy=\"26\" r=\"5.2\" fill=\"#FBCFE8\" />\n  <path d=\"M36 46c0-4.6 3.5-8 8-8 3.2 0 6 1.8 7 4.8V46H36Z\" fill=\"#FBCFE8\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
+    "slug": "reneo-panel-widgets",
+    "name": "Panel Widget",
+    "description": "Ikon resmi Reneo Panel untuk jendela dan pintasan Widget.",
+    "categorySlug": "panel-reneo",
+    "style": "brand",
+    "tags": [
+      "reneo",
+      "panel",
+      "widgets"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Widget\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#1D4ED8\" />\n  <rect x=\"14\" y=\"14\" width=\"16\" height=\"16\" rx=\"4.5\" fill=\"#FFFFFF\" />\n  <rect x=\"34\" y=\"14\" width=\"16\" height=\"10\" rx=\"4\" fill=\"#93C5FD\" />\n  <rect x=\"34\" y=\"28\" width=\"16\" height=\"22\" rx=\"4.5\" fill=\"#FFFFFF\" />\n  <rect x=\"14\" y=\"34\" width=\"16\" height=\"16\" rx=\"4.5\" fill=\"#93C5FD\" />\n</svg>",
+    "viewBox": "0 0 64 64",
+    "author": "Tim Reneo",
+    "featured": 0,
+    "isOfficial": 1
+  },
+  {
     "slug": "server-rack",
     "name": "Server Rack",
     "description": "Ikon rak server untuk status node dan infrastruktur.",

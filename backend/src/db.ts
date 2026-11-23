@@ -78,20 +78,18 @@ function seedInitialData(db: DatabaseSync): void {
     ).run(config.adminEmail.toLowerCase(), "Admin Reneo", hashPassword(config.adminPassword), "admin");
   }
 
-  const catCount = db.prepare("SELECT COUNT(*) as c FROM categories").get() as { c: number };
-  if (catCount.c === 0) {
-    const defaultCategories = [
-      { slug: "brand-reneo", name: "Brand Reneo", description: "Logo dan identitas resmi ekosistem produk Reneo.", sort: 1 },
-      { slug: "aplikasi-server", name: "Aplikasi & Layanan", description: "Ikon brand aplikasi self-hosted, monitoring, dan infrastruktur.", sort: 2 },
-      { slug: "antarmuka-ui", name: "Antarmuka & UI", description: "Ikon vektor monokrom (currentColor) siap ubah warna dan ukuran.", sort: 3 },
-      { slug: "server-devops", name: "Server & DevOps", description: "Ikon terminal, database, jaringan, dan keamanan sistem.", sort: 4 },
-    ];
-    const insertCat = db.prepare(
-      "INSERT INTO categories (slug, name, description, sort_order) VALUES (?, ?, ?, ?)"
-    );
-    for (const c of defaultCategories) {
-      insertCat.run(c.slug, c.name, c.description, c.sort);
-    }
+  const defaultCategories = [
+    { slug: "brand-reneo", name: "Brand Reneo", description: "Logo dan identitas resmi ekosistem produk Reneo.", sort: 1 },
+    { slug: "panel-reneo", name: "Ikon Panel Reneo", description: "Koleksi resmi 24 ikon aplikasi desktop dan window Reneo Panel.", sort: 2 },
+    { slug: "aplikasi-server", name: "Aplikasi & Layanan", description: "Ikon brand aplikasi self-hosted, monitoring, dan infrastruktur.", sort: 3 },
+    { slug: "antarmuka-ui", name: "Antarmuka & UI", description: "Ikon vektor monokrom (currentColor) siap ubah warna dan ukuran.", sort: 4 },
+    { slug: "server-devops", name: "Server & DevOps", description: "Ikon terminal, database, jaringan, dan keamanan sistem.", sort: 5 },
+  ];
+  const insertCat = db.prepare(
+    "INSERT OR IGNORE INTO categories (slug, name, description, sort_order) VALUES (?, ?, ?, ?)"
+  );
+  for (const c of defaultCategories) {
+    insertCat.run(c.slug, c.name, c.description, c.sort);
   }
 
   const getCatId = db.prepare("SELECT id FROM categories WHERE slug = ?");
