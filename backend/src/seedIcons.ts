@@ -313,11 +313,29 @@ export const BUILTIN_ICONS: SeedIconEntry[] = [
       "svg",
       "brand"
     ],
-    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" role=\"img\" aria-label=\"Reneo Icons\">\n  <rect x=\"40\" y=\"40\" width=\"432\" height=\"432\" rx=\"92\" fill=\"#0B2A57\" />\n  <rect x=\"112\" y=\"112\" width=\"128\" height=\"128\" rx=\"30\" fill=\"#FFFFFF\" />\n  <circle cx=\"176\" cy=\"176\" r=\"32\" fill=\"#0B2A57\" />\n  <rect x=\"272\" y=\"112\" width=\"128\" height=\"128\" rx=\"30\" fill=\"#3B82F6\" />\n  <polygon points=\"336,144 370,204 302,204\" fill=\"#FFFFFF\" />\n  <rect x=\"112\" y=\"272\" width=\"128\" height=\"128\" rx=\"30\" fill=\"#1D4ED8\" />\n  <rect x=\"148\" y=\"308\" width=\"56\" height=\"56\" rx=\"14\" fill=\"#FFFFFF\" />\n  <rect x=\"272\" y=\"272\" width=\"128\" height=\"128\" rx=\"30\" fill=\"#FFFFFF\" />\n  <path d=\"M308 336h56M336 308v56\" stroke=\"#0B2A57\" stroke-width=\"22\" stroke-linecap=\"round\" />\n</svg>",
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" role=\"img\" aria-label=\"Reneo Icons\">\n  <rect x=\"40\" y=\"40\" width=\"432\" height=\"432\" rx=\"92\" fill=\"#0B2A57\" />\n  <!-- Back vector grid tiles (blue + emerald accent) -->\n  <rect x=\"218\" y=\"96\" width=\"194\" height=\"194\" rx=\"36\" fill=\"#3B82F6\" />\n  <circle cx=\"352\" cy=\"156\" r=\"24\" fill=\"#FFFFFF\" opacity=\"0.9\" />\n  <rect x=\"266\" y=\"254\" width=\"146\" height=\"146\" rx=\"30\" fill=\"#10B981\" />\n  <!-- Front artboard frame with authentic Reneo R monogram -->\n  <rect\n    x=\"102\"\n    y=\"148\"\n    width=\"244\"\n    height=\"256\"\n    rx=\"38\"\n    fill=\"#FFFFFF\"\n    stroke=\"#0B2A57\"\n    stroke-width=\"18\"\n    stroke-linejoin=\"round\"\n  />\n  <g transform=\"translate(86.0, 141.0) scale(0.54)\">\n    <rect x=\"146.0\" y=\"150.0\" width=\"220.0\" height=\"152.0\" rx=\"62.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"150.0\" width=\"62.0\" height=\"62.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"240.0\" width=\"62.0\" height=\"62.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"150.0\" width=\"60.0\" height=\"216.0\" fill=\"#0B2A57\" />\n    <polygon points=\"238.0,296.0 300.0,296.0 378.0,366.0 310.0,366.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"212.0\" width=\"160.0\" height=\"16.0\" rx=\"8.0\" fill=\"#FFFFFF\" />\n    <rect x=\"146.0\" y=\"212.0\" width=\"8.0\" height=\"8.0\" fill=\"#FFFFFF\" />\n    <rect x=\"146.0\" y=\"220.0\" width=\"8.0\" height=\"8.0\" fill=\"#FFFFFF\" />\n    <polygon points=\"206.0,302.0 244.0,302.0 300.0,366.0 206.0,366.0\" fill=\"#FFFFFF\" />\n  </g>\n  <!-- Vector anchor nodes -->\n  <rect x=\"92\" y=\"138\" width=\"26\" height=\"26\" rx=\"6\" fill=\"#3B82F6\" stroke=\"#0B2A57\" stroke-width=\"6\" />\n  <rect x=\"330\" y=\"388\" width=\"26\" height=\"26\" rx=\"6\" fill=\"#10B981\" stroke=\"#0B2A57\" stroke-width=\"6\" />\n</svg>",
     "viewBox": "0 0 512 512",
     "author": "Tim Reneo",
     "featured": 1,
     "isOfficial": 1
+  },
+  {
+    "slug": "reneo-resto",
+    "name": "Reneo Resto",
+    "description": "Ikon brand aplikasi Reneo Resto untuk katalog dan dashboard server.",
+    "categorySlug": "aplikasi-server",
+    "style": "brand",
+    "tags": [
+      "reneo-resto",
+      "app",
+      "self-hosted",
+      "brand"
+    ],
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" role=\"img\" aria-label=\"Reneo Resto\">\n  <rect x=\"40\" y=\"40\" width=\"432\" height=\"432\" rx=\"92\" fill=\"#0B2A57\" />\n  <!-- Cloche top knob (warm gold) -->\n  <circle cx=\"256\" cy=\"112\" r=\"24\" fill=\"#F59E0B\" />\n  <!-- White cloche dining dome with navy separation stroke -->\n  <path\n    d=\"M110 352C110 232 175 144 256 144C337 144 402 232 402 352H110Z\"\n    fill=\"#FFFFFF\"\n    stroke=\"#0B2A57\"\n    stroke-width=\"18\"\n    stroke-linejoin=\"round\"\n  />\n  <!-- Authentic Reneo R monogram centered inside cloche dome -->\n  <g transform=\"translate(128.0, 146.0) scale(0.50)\">\n    <rect x=\"146.0\" y=\"150.0\" width=\"220.0\" height=\"152.0\" rx=\"62.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"150.0\" width=\"62.0\" height=\"62.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"240.0\" width=\"62.0\" height=\"62.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"150.0\" width=\"60.0\" height=\"216.0\" fill=\"#0B2A57\" />\n    <polygon points=\"238.0,296.0 300.0,296.0 378.0,366.0 310.0,366.0\" fill=\"#0B2A57\" />\n    <rect x=\"146.0\" y=\"212.0\" width=\"160.0\" height=\"16.0\" rx=\"8.0\" fill=\"#FFFFFF\" />\n    <rect x=\"146.0\" y=\"212.0\" width=\"8.0\" height=\"8.0\" fill=\"#FFFFFF\" />\n    <rect x=\"146.0\" y=\"220.0\" width=\"8.0\" height=\"8.0\" fill=\"#FFFFFF\" />\n    <polygon points=\"206.0,302.0 244.0,302.0 300.0,366.0 206.0,366.0\" fill=\"#FFFFFF\" />\n  </g>\n  <!-- Serving platter base (gold + emerald hospitality accent) -->\n  <rect x=\"92\" y=\"366\" width=\"328\" height=\"30\" rx=\"15\" fill=\"#F59E0B\" />\n  <rect x=\"156\" y=\"408\" width=\"200\" height=\"14\" rx=\"7\" fill=\"#10B981\" />\n</svg>",
+    "viewBox": "0 0 512 512",
+    "author": "Komunitas Open Source",
+    "featured": 0,
+    "isOfficial": 0
   },
   {
     "slug": "reneo-sidesa",
