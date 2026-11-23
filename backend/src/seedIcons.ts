@@ -490,7 +490,7 @@ export const BUILTIN_ICONS: SeedIconEntry[] = [
       "panel",
       "apps"
     ],
-    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Docker & Container\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0284C7\" />\n  <rect x=\"15\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"27\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"39\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#BAE6FD\" />\n  <rect x=\"21\" y=\"22\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"33\" y=\"22\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#BAE6FD\" />\n  <path d=\"M13 43h38c0 4.5-3.8 7-9 7H22c-5.2 0-9-2.5-9-7Z\" fill=\"#E0F2FE\" />\n</svg>",
+    "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"Docker &amp; Container\">\n  <rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"15\" fill=\"#0284C7\" />\n  <rect x=\"15\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"27\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"39\" y=\"32\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#BAE6FD\" />\n  <rect x=\"21\" y=\"22\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#FFFFFF\" />\n  <rect x=\"33\" y=\"22\" width=\"10\" height=\"8\" rx=\"2\" fill=\"#BAE6FD\" />\n  <path d=\"M13 43h38c0 4.5-3.8 7-9 7H22c-5.2 0-9-2.5-9-7Z\" fill=\"#E0F2FE\" />\n</svg>",
     "viewBox": "0 0 64 64",
     "author": "Tim Reneo",
     "featured": 0,
